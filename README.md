@@ -1,138 +1,164 @@
-# 伯乐 · Bole
+<img src="docs/images/bole-mascot.png" align="right" width="128" alt="伯乐" />
 
-> **古有伯乐相马，今有伯乐相 AI** —— 从 4800+ 个大模型里，替你挑出最适合你场景的那一匹。
+# 伯乐
 
-<p align="center">
-  <img src="docs/images/bole-mascot.png" width="280" alt="伯乐 Bole 吉祥物" />
-</p>
+### 别查了——说一句话，伯乐替你选
 
-<p align="center">
+从 4800+ 个 AI 模型里，替你挑出最合适的那一个。不需要懂技术，用大白话描述你要做什么，就能拿到一份看得懂的选型报告。
+
+<p>
   <a href="http://47.116.58.163:3000/">
-    <img src="https://img.shields.io/badge/🚀%20在线%20Demo-立即体验-2563eb?style=for-the-badge" alt="在线 Demo" />
-  </a>
-  &nbsp;
-  <a href="http://47.116.58.163:3000/">
-    <img src="https://img.shields.io/badge/访问地址-47.116.58.163%3A3000-475569?style=for-the-badge" alt="访问地址" />
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20%E7%AB%8B%E5%8D%B3%E4%BD%93%E9%AA%8C-%E2%86%92-2563eb?style=for-the-badge" alt="立即体验" />
   </a>
 </p>
 
----
-
-> **"我想用 AI 搞 XX，但不知道该选哪个。"**
->
-> 这大概是很多人打开 AI 选型时的状态。
-> 伯乐做的事只有一件：**帮你把这句话说完整，然后给你答案。**
-
-## 🤔 为什么需要伯乐
-
-市面上有 4800+ 个 AI 模型，名字都差不多，能力说明书一个比一个玄学。你可能遇到过：
-
-- 打开一堆名字一脸懵，不知道从哪看起
-- 问 ChatGPT / 豆包，又怕它偏袒自家，瞎给数据
-- 看技术文章，越看越糊涂，术语一个不认识
-- 好不容易选了一个，用起来才发现不合规 / 太贵 / 不够用
-
-**核心价值只有一句话：**
-
-> **把"你需要精通 AI 才能选 AI"的门槛，降到"会说大白话"就行。**
+<img src="docs/images/home.png" width="820" alt="伯乐首页：用大白话描述你的场景" />
 
 ---
 
-## 💡 伯乐如何帮你——以"做一个客服机器人"为例
-
-不是让你先懂行再来用，**而是边用边帮你搞清楚自己要什么**。
-
-**① 你先说一句大白话：**
-> "我想做一个客服机器人，帮公司处理用户的退换货咨询"
-
-**② 伯乐自动追问（而不是让你自己填表）：**
-> "大概每天多少条咨询？"
-> "公司数据能不能传到国外的 AI？"
-> "每月预算能承担多少？"
-> "回答错了后果严重吗？还是可以人工兜底？"
-
-**③ 你用大白话回答就行**
-（不清楚也没关系，选"不确定"，伯乐帮你估算合理值）
-
-**④ 拿到一份看得懂的决策报告：**
-- ✅ 推荐你用哪 3 个模型，每个都说清楚"为什么是它"
-- 💰 每月大概花多少钱（人民币数字，不是 token 计价）
-- 📋 上线前要验证什么（三步清单，照着做）
-- 📊 想深入看的话，还有详细对比表
+<table align="center">
+  <tr>
+    <td align="center" width="240">
+      <div><b style="font-size: 24px">4800+</b></div>
+      <sub>覆盖的 AI 模型</sub>
+    </td>
+    <td align="center" width="240">
+      <div><b style="font-size: 24px">52</b></div>
+      <sub>真实 benchmark 来源</sub>
+    </td>
+    <td align="center" width="240">
+      <div><b style="font-size: 24px">3 分钟</b></div>
+      <sub>从描述到决策报告</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 👥 谁需要伯乐
+## 你是不是也这样
 
 <table>
 <tr>
-  <th width="33%">🏥 行业专家</th>
-  <th width="33%">🚀 创业者 / 个人开发者</th>
-  <th width="33%">🏢 中小企业老板</th>
+  <td width="50%" valign="top">
+    <b>打开一堆名字一脸懵</b><br/>
+    <sub>Qwen、DeepSeek、Claude、Gemini……4800 多个模型，不知道从哪看起。</sub>
+  </td>
+  <td width="50%" valign="top">
+    <b>问 ChatGPT 或豆包替你选</b><br/>
+    <sub>又怕它偏袒自家、瞎给数据，不敢全信。</sub>
+  </td>
 </tr>
 <tr>
-  <td>律师、医生、老师、会计……<br/><br/><b>你懂自己的业务，但不懂 AI。</b></td>
-  <td>有产品想法想试试，但团队里没有专门懂 AI 的人。</td>
-  <td>听说同行都在用 AI，想让自己员工也用上，又怕选错花冤枉钱。</td>
+  <td valign="top">
+    <b>看技术文章越看越糊涂</b><br/>
+    <sub>MMLU、HumanEval、ELO、MoE……术语一个不认识，越读越劝退。</sub>
+  </td>
+  <td valign="top">
+    <b>好不容易选了一个</b><br/>
+    <sub>上线才发现不合规 / 太贵 / 不够用，整个方案推倒重来。</sub>
+  </td>
+</tr>
+</table>
+
+选型这件事的门槛，不该是"先学会 AI 才能选 AI"。
+
+---
+
+## 伯乐怎么帮你——3 步
+
+### ① 用大白话说出你要做什么
+
+不用填表、不用选参数，像跟同事聊天一样把场景说清楚：
+
+> "我想做一个客服机器人，帮公司处理用户的退换货咨询。"
+
+### ② 伯乐反问你没说清的地方
+
+LLM 会根据场景判断还缺哪些关键信息，自动追问——不确定也没关系，选"不确定"伯乐会帮你估算合理值。
+
+<img src="docs/images/filter.png" width="820" alt="自适应追问与候选确认" />
+
+### ③ 拿到一份看得懂的决策报告
+
+<img src="docs/images/recommend.png" width="820" alt="Top 3 推荐 + 决策分叉" />
+
+不是一堆 token 和参数，而是告诉你：选这个模型 / 每月大概多少钱 / 上线前要验证什么 / 如果你更看重 X 就换成 Y。
+
+---
+
+## 你会拿到什么
+
+<table>
+<tr>
+  <td width="33%" valign="top">
+    <b>Top 3 推荐</b><br/>
+    <sub>3 个最适合你场景的模型，每个都附"什么情况下选它"的条件说明。</sub>
+  </td>
+  <td width="33%" valign="top">
+    <b>月成本估算</b><br/>
+    <sub>按你描述的使用量算出的具体人民币月花费，直接比价。</sub>
+  </td>
+  <td width="33%" valign="top">
+    <b>验证路线图</b><br/>
+    <sub>上线前三阶段清单：快速试用 → 深度测试 → 灰度上线，照做就行。</sub>
+  </td>
 </tr>
 <tr>
-  <td><i>"我每天做合同审核 / 病历整理 / 备课 / 对账，到底哪个 AI 能帮我？"</i></td>
-  <td><i>"想给产品加 AI 功能，但选错一次可能就是好几周的返工。"</i></td>
-  <td><i>"预算有限、数据不能乱传、还得好用，这三条能同时满足吗？"</i></td>
+  <td valign="top">
+    <b>决策分叉树</b><br/>
+    <sub>"更看重准确选 A，更看重便宜选 B"，帮你按自己的权重拍板。</sub>
+  </td>
+  <td valign="top">
+    <b>能力雷达图</b><br/>
+    <sub>Shortlist 模型的多维度能力可视化对比，一眼看出各自强弱。</sub>
+  </td>
+  <td valign="top">
+    <b>评分对比表</b><br/>
+    <sub>全候选模型 × 全关键能力的对比矩阵，每个分数都带 benchmark 来源。</sub>
+  </td>
+</tr>
+</table>
+
+<img src="docs/images/Radar%20Chart.png" width="820" alt="能力雷达图" />
+
+<img src="docs/images/ranking.png" width="820" alt="全候选评分矩阵" />
+
+---
+
+## 谁适合用伯乐
+
+<table>
+<tr>
+  <th width="33%">行业专家</th>
+  <th width="33%">创业者 / 独立开发者</th>
+  <th width="33%">中小企业主</th>
 </tr>
 <tr>
-  <td>👉 伯乐用你熟悉的业务语言反问你，把"模糊的需求"变成"清晰的参数"，推荐时还会告诉你"为什么不选另一个"。</td>
-  <td>👉 伯乐替你过滤掉不合规、超预算、能力不足的选项，让你直接在靠谱候选里挑。</td>
-  <td>👉 伯乐把"数据能不能出境""开不开源""月成本多少"算得清清楚楚，老板看报告就能决策。</td>
+  <td valign="top">律师、医生、老师、会计——你懂自己的业务，但不懂 AI。</td>
+  <td valign="top">有产品想法，团队里没有专门懂 AI 的人。</td>
+  <td valign="top">听说同行都在用 AI，怕选错、怕超预算、怕数据合规出问题。</td>
 </tr>
 <tr>
-  <td><i>"原来我的场景根本不需要最贵的那个模型。"</i></td>
-  <td><i>"一次对话替我省了两周查资料的时间。"</i></td>
-  <td><i>"终于有一份 IT 和业务都能看懂的选型报告了。"</i></td>
+  <td valign="top"><sub>"我每天做合同审核 / 病历整理，到底哪个 AI 能帮我？"</sub></td>
+  <td valign="top"><sub>"想给产品加 AI 功能，但选错一次可能就是好几周返工。"</sub></td>
+  <td valign="top"><sub>"预算有限、数据不能乱传、还得好用，这三条能同时满足吗？"</sub></td>
+</tr>
+<tr>
+  <td valign="top">伯乐用你熟悉的业务语言反问你，把模糊需求翻译成清晰参数。</td>
+  <td valign="top">伯乐替你过滤掉不合规、超预算、能力不足的选项，让你在靠谱候选里挑。</td>
+  <td valign="top">伯乐把"数据能否出境 / 是否开源 / 月成本"算得清清楚楚，直接拿去决策。</td>
 </tr>
 </table>
 
 ---
 
-## 📦 你会拿到什么
+## 为什么数据可信
 
-| 产出 | 你能看到什么 |
-|------|------|
-| 🏆 **Top 3 推荐** | 3 个最适合你场景的模型，每个都附"什么情况下选它"的条件说明 |
-| 💰 **月成本估算** | 按你描述的使用量算出的具体人民币月花费，直接比价 |
-| 📋 **验证路线图** | 上线前三阶段清单：快速试用 → 深度测试 → 灰度上线，照做就行 |
-| 🧭 **决策分叉树** | "如果你更看重准确 → 选 A；更看重便宜 → 选 B"，帮你根据自己权重拍板 |
-| 📊 **评分对比表** | 所有候选模型 × 所有关键能力的对比矩阵（带真实 benchmark 来源，不是瞎编） |
+伯乐不让 LLM 凭印象打分，所有能力数值都来自 **52 个真实 benchmark**——包括 HuggingFace Open LLM Leaderboard、OpenCompass、LiveBench、Chatbot Arena 等公开榜单。LLM 只负责两件事：把你的大白话翻译成参数、把最终报告写得人话一点。**打分与排名完全来自真实数据**。
 
 ---
 
-## 🖼️ 产品截图
-
-**首页：用大白话描述你的场景**
-
-<img src="docs/images/home.png" width="720" alt="首页：场景输入" />
-
-**过滤确认：编辑决策问题、审视候选模型**
-
-<img src="docs/images/filter.png" width="720" alt="过滤确认" />
-
-**Shortlist：Top 3 模型推荐与决策分叉**
-
-<img src="docs/images/recommend.png" width="720" alt="Shortlist 推荐" />
-
-**能力雷达：Shortlist 模型多维度可视化对比**
-
-<img src="docs/images/Radar%20Chart.png" width="720" alt="能力雷达图" />
-
-**评分矩阵：全候选模型 × 全决策维度**
-
-<img src="docs/images/ranking.png" width="720" alt="评分矩阵" />
-
----
-
-## 🛠️ 技术栈
-
-给好奇实现细节的技术读者：
+## 技术栈
 
 | 类别 | 选型 |
 |------|------|
@@ -141,9 +167,10 @@
 | 样式 | Tailwind CSS v4 |
 | 数据层 | Prisma + SQLite |
 | LLM | Anthropic Claude |
-| 数据来源 | HuggingFace Open LLM Leaderboard、OpenCompass、LiveBench、Chatbot Arena 等 52 个真实 benchmark |
+| 数据来源 | HuggingFace Open LLM Leaderboard、OpenCompass、LiveBench、Chatbot Arena 等 52 个公开 benchmark |
 
-## 🧩 系统流程
+<details>
+<summary>系统流程</summary>
 
 ```
 用户场景描述
@@ -159,11 +186,13 @@
 [5] 报告组装（LLM 润色）          →  最终决策报告
 ```
 
+</details>
+
 ---
 
 <p align="center">
-  <b>🐎 让伯乐替你相一匹——一句话描述你的场景，3 分钟拿到答案</b><br/><br/>
+  <b>说一句话，3 分钟拿到一份你看得懂的 AI 选型报告。</b><br/><br/>
   <a href="http://47.116.58.163:3000/">
-    <img src="https://img.shields.io/badge/立即体验伯乐-http%3A%2F%2F47.116.58.163%3A3000-2563eb?style=for-the-badge" alt="立即体验" />
+    <img src="https://img.shields.io/badge/%F0%9F%9A%80%20%E7%AB%8B%E5%8D%B3%E4%BD%93%E9%AA%8C%E4%BC%AF%E4%B9%90-%E2%86%92-2563eb?style=for-the-badge" alt="立即体验伯乐" />
   </a>
 </p>
