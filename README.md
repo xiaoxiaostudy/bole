@@ -1,11 +1,15 @@
 <p align="center">
-  <img src="docs/images/hero-title.svg" width="760" alt="伯乐 · AI 选型报告" />
+  <img src="docs/images/bole-mascot.png" width="160" alt="伯乐" />
 </p>
 
-<h3 align="center">别查了：只需要说一句话，3 分钟伯乐给一份你看得懂的 AI 选型报告。</h3>
+<h1 align="center">伯乐 · AI 选型报告</h1>
 
 <p align="center">
-  从 4800+ 个 AI 模型里，替你挑出最合适的那一个。<br/>
+  <i>别查了：只需要说一句话，3 分钟伯乐给一份你看得懂的 AI 选型报告。</i>
+</p>
+
+<p align="center">
+  从 4800+ 个 AI 模型里替你挑出最合适的那一个。<br/>
   不需要懂技术，用大白话描述你要做什么，就能拿到一份看得懂的选型报告。
 </p>
 
