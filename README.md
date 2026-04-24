@@ -14,7 +14,8 @@
 </p>
 
 <p align="center">
-  <b>4800+</b> 个模型　·　<b>52</b> 个公开 benchmark　·　<b>3 分钟</b>出报告
+  覆盖 <b>4800+</b> 个模型　·　聚合 <b>52</b> 个公开 benchmark（HuggingFace · OpenCompass · LiveBench · Chatbot Arena）<br/>
+  <b>5 步</b>数据管线 · 硬约束过滤 + 能力打分 + 成本重排　·　每项评分可溯源　·　<b>3 分钟</b>出决策报告
 </p>
 
 <p align="center">
