@@ -1,9 +1,7 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2563eb,50:4f46e5,100:7c3aed&height=200&section=header&text=%E4%BC%AF%E4%B9%90&fontSize=80&fontColor=ffffff&fontAlignY=38&desc=AI%20%E9%80%89%E5%9E%8B%E6%8A%A5%E5%91%8A%20%C2%B7%20Bole&descSize=22&descAlignY=64" alt="伯乐 · AI 选型报告" width="100%" />
-</p>
-
-<p align="center">
-  <img src="docs/images/bole-mascot.png" width="140" alt="伯乐吉祥物" />
+  <img src="docs/images/bole-mascot.png" height="200" align="middle" alt="伯乐" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="docs/images/hero-title.svg" height="200" align="middle" alt="伯乐 · AI 选型报告" />
 </p>
 
 <h3 align="center">别查了：只需要说一句话，3 分钟伯乐给一份你看得懂的 AI 选型报告。</h3>
